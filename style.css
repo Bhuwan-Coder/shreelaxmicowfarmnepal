@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.topics{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+   font-style: italic;
+}
+.container{
+    text-align: center;
+   
+}
+h2{
+    font-size: 30px;
+    color: crimson;
+}
+.b{
+    font-size: 25px;
+    color:crimson;
+}
+.container{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color:whitesmoke;
+
+}
+.container{
+    background-image: url(cow.jpg);
+    background-size: cover;
+    height: 800px;
+    
+}
+.h{
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: maroon;
+    height: 90px;
+    line-height: 80px;
+    color:wheat;
+    
+}
+.product{
+    font-size: 40px;
+    text-align: center;
+    color:yellow;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: bhuwan linear infinite 8s;
+    transition: .5s;
+}
+.anim{
+    background-color: #313131;
+   
+}
+
+@keyframes bhuwan{
+    50%{
+        color:lawngreen;
+    }
+    70%{
+    color: red;
+    }
+}
+.Contact {
+    font-size: 40px;
+    text-align: center;
+    color:lawngreen;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ph,.email{
+    text-align: center;
+    font-size: 25px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hello{
+    background-color: skyblue;
+    padding: 20px;
+}
+body {
+    max-height: (1200);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    text-align: center;
+    background-color:black;
+    color:white;
+    height: 45px;
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+b{
+    color: gold;
+}
